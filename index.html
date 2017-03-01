@@ -37,7 +37,7 @@
 			c.height = window.innerHeight;
 			c.width = window.innerWidth;
 
-			var txts = "052あ7B8い甘GANE士CHENG成う1え9お甘かき士くけこ成EFCADG甘HIJK士LMNO成PQRSTU甘VWXYZE士FCADGH成IJKLM";
+			var txts = "我爱窦文静，我要娶窦文静，我希望她好好的。";
 			txts = txts.split("");
 
 			var font_size = 28;
@@ -70,7 +70,7 @@
 				for(var i = 0; i < drops.length; i++)
 				{
 					//随机打印字符
-					var text = txts[Math.floor(Math.random()*txts.length)];
+					var text = txts;
 
 					//x = i*font_size
 					//y = value of drops[i]*font_size
@@ -83,7 +83,7 @@
 					drops[i]++;
 				}
 			}
-			setInterval(draw, 50);
+
 		}
 </script>
 </body>
