@@ -1,0 +1,23 @@
+body,p {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial Narrow", "Lucida Calligraphy", "Harlow Solid Italic", Helvertica, Arial, sans-serif;
+}
+body{
+    background: #e2f1da;
+}
+a{
+    text-decoration: none;
+}
+.cf:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.b{
+    font-weight: bold;
+}
+.all_body{
+    width: 500px;
+    margin: 0 auto;
+}
