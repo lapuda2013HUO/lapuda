@@ -2,81 +2,136 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My SPcae</title>
+    <title>属于咋的SPcae</title>
+    <script type="text/javascript" src="jsfile/jquery-3.2.1.js"></script>
+    <script  src="jsfile/the-source-jq.js"></script>
     <link rel="stylesheet" type="text/css" href="style/common.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/the-imagegallery.css">
 
 
 
 </head>
 <body>
+
+
 <div class="head-part">
     <div class="head-part-one"><a href="/">亦余心之所善兮</a></div>
     <div><a href="/">虽九死其犹未悔</a></div>
 </div>
-<div class="title">
-    <p>相看两不厌 唯有敬亭山</p><br>
+
+<div class="title" onmouseenter="changContent()">
+    <p id="the-head-logo">青山遮不住 毕竟南流去</p><br>
 </div>
-<div class="all-body">
+
+
+<div class="the-all-imagegallery" >
+
+    <button id="imagegallery-hide">隐藏/显示</button>
+
+    <div id="all-imagegallery">
+
     <ul class="the-page-ul" id="imagegallery">
         <li class="the-li-one">
-            <a href="picture/111DSC09886.jpg" title="its me.">
-                me
+            <a href="picture/111DSC09886.jpg" title="帅气的我，望向南京的你。">
+                I
             </a>
         </li>
         <li class="the-li-two">
-            <a href="picture/e5599b6af83f40dbedbeed5d971ea306_r.jpg" title="this is the road.">
-                the road
+            <a href="picture/timg.jpeg" title="This is our love.">
+                LOVE
             </a>
         </li>
         <li  class="  the-li-three">
-            <a href="picture/a.jpeg" title="this is a woman.">
-                woman
+            <a href="picture/WechatIMG17.jpeg" title="虽然有点非主流，可是还是好喜欢。">
+                YOU
             </a>
         </li>
     </ul>
 
     <div class="img-part">
-    <div class="img-info"  align="center" >
-        <a>路漫漫其修远兮 吾将上下而求索</a>
+        <div class="img-info"  align="center" >
+            <a>路漫漫其修远兮 咋将上下而求索</a>
+        </div>
+        <div class="img-one" >
+            <img id="placeholder" src="picture/111DSC09886.jpg" alt="this is a way." >
+            <p id="description">我 爱 你</p>
     </div>
-   <div class="img-one" >
-       <img id="placeholder" src="picture/111DSC09886.jpg" alt="this is a way." width="500px" height="500px">
-       <p id="description">weclome</p>
-   </div>
+    </div>
+
+    </div>
+
+</div>
+
+
+<div class="all-body">
+
+
+
+
+    <div class="the-all-label">
+
+        <ul id="the-all-ul">
+            <li class="boby-label">咋的第一个七夕</li>
+            <li>爱你的那首诗️</li>
+            <li>未完待续</li>
+
+        </ul>
     </div>
 
     <div class="article-part">
-            <div class="article-content">
-        卑鄙/是卑鄙者的通行证，<br>
-        高尚/是高尚者的/墓志铭，<br>
-        看吧，在那/镀金的天空中，<br>
-        飘满了死者/弯曲的/倒影。<br>
-        冰川纪过去了，<br>
-        为什么到处〔重音〕都是冰凌？<br>
-        好望角发现了，<br>
-        为什么死海里/千帆相竞？<br>
-        我/来到这个世界上，<br>
-        只带着纸、绳索/和身影，<br>
-        为了在审判前，<br>
-        宣读那些/被判决的/声音。<br>
-        告诉你吧，世界〔轻〕<br>
-        我--不--相--信！<br>
-        纵使/你脚下有/一千名〔重音〕挑战者，<br>
-        那就把我算作/第一千零一名。<br>
-        我不相信天是蓝的，<br>
-        我不相信雷的回声；<br>
-        我不相信梦是假的，<br>
-        我不相信/死/无/报/应。<br>
-        如果/海洋注定/要决堤，<br>
-        就让所有〔重音〕的苦水/都注入我心中，<br>
-        如果/陆地注定/要上升，<br>
-        就让人类/重新选择生存的峰顶！<br>
-        新的转机/和闪闪星斗，<br>
-        正在缀满/没有遮拦的天空。<br>
-        那/是五千年〔重音〕的象形文字，<br>
-        那/是未来人们/凝视的/眼睛〔轻〕。<br>
+
+            <div class="content-set article-content">
+                这是咋第一个七夕<br>
+                也是你开学的第一天<br>
+                也是我爱你的一天<br>
+                也是咋相爱的一天<br>
+                是咋相爱的第四十八天<br>
+                也是咋在一起的第十五天<br><br>
+
+                如果咋到八十五岁的七夕<br>
+                那是咋相爱的第二万三千五十六天天<br>
+                也是咋在一起的第二万三千二十三天<br>
+                刚好为一个长征的距离<br><br>
+
+                今天是七夕节<br>
+                咋的每天都是七夕<br>
+                因为每天都会和你相会<br>
+                因为每天咋都相爱<br><br>
+
+                这只是偌大互联网中的一个小小角落<br>
+                就像浩瀚宇宙中的一粒尘埃<br>
+                却记载着我们的存在<br>
+                上面刻着咋的爱情<br>
+
             </div>
+
+        <div class="article-content">
+            这诗只关于你<br><br>
+            马千繁<br>
+            我爱你<br>
+            是抒情<br>
+            是描述<br>
+            是记叙<br><br>
+
+            我爱你<br>
+            是风光<br>
+            是人文<br>
+            是纪实<br>
+            是黑白<br><br>
+
+            我爱你<br>
+            是情绪<br>
+            是态度<br>
+            是只对你一个人说过那么多<br>
+        </div>
+
+        <div class="article-content" >
+            咋们的故事<br>
+            未完待续<br>
+            一直存在<br>
+            因为这里一直存在<br>
+        </div>
     </div>
 
 </div>
@@ -94,5 +149,6 @@
 </footer>
 
 <script type="text/javascript" src="jsfile/thefirstjs.js"></script>
+
 </body>
 </html>
